@@ -1,0 +1,113 @@
+Feb 23 23:40:42 DESKTOP-73ISM6T systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 170 (rsyslogd) on client request.
+Feb 23 23:40:42 DESKTOP-73ISM6T systemd[1]: Finished Set console scheme.
+Feb 23 23:40:42 DESKTOP-73ISM6T systemd[1]: Created slice Slice /system/getty.
+Feb 23 23:40:42 DESKTOP-73ISM6T systemd[1]: Started Getty on tty1.
+Feb 23 23:40:42 DESKTOP-73ISM6T systemd[1]: Reached target Login Prompts.
+Feb 23 23:40:42 DESKTOP-73ISM6T systemd[1]: logrotate.service: Deactivated successfully.
+Feb 23 23:40:42 DESKTOP-73ISM6T systemd[1]: Finished Rotate log files.
+Feb 23 23:40:42 DESKTOP-73ISM6T systemd[1]: Finished Terminate Plymouth Boot Screen.
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]: No valid path found for iwconfig
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]: No valid path found for iw
+Feb 23 23:40:42 DESKTOP-73ISM6T dbus-daemon[155]: [system] Activating via systemd: service name='org.freedesktop.network1' unit='dbus-org.freedesktop.network1.service' requested by ':1.3' (uid=0 pid=239 comm="/usr/bin/networkctl list --no-pager --no-legend ")
+Feb 23 23:40:42 DESKTOP-73ISM6T dbus-daemon[155]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.network1.service': Unit dbus-org.freedesktop.network1.service not found.
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[239]: WARNING: systemd-networkd is not running, output will be incomplete.
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]: Traceback (most recent call last):
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]:     self.handle_state(iface_name,
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]:     raise UnknownState(operational_state)
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]: UnknownState: n/a
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]: Traceback (most recent call last):
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]:     self.handle_state(iface_name,
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]:     raise UnknownState(operational_state)
+Feb 23 23:40:42 DESKTOP-73ISM6T networkd-dispatcher[167]: UnknownState: n/a
+Feb 23 23:40:42 DESKTOP-73ISM6T systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Feb 23 23:40:43 DESKTOP-73ISM6T kernel: [    3.597714] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Feb 23 23:40:43 DESKTOP-73ISM6T kernel: [    3.598256] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Feb 23 23:40:43 DESKTOP-73ISM6T kernel: [    3.598748] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Feb 23 23:40:43 DESKTOP-73ISM6T kernel: [    3.599307] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+Feb 23 23:40:43 DESKTOP-73ISM6T snapd[175]: overlord.go:272: Acquiring state lock file
+Feb 23 23:40:43 DESKTOP-73ISM6T snapd[175]: overlord.go:277: Acquired state lock file
+Feb 23 23:40:43 DESKTOP-73ISM6T snapd[175]: daemon.go:247: started snapd/2.60.4 (series 16; classic; devmode; wsl) ubuntu/22.04 (amd64) linux/5.15.133.1-microsoft-stan.
+Feb 23 23:40:43 DESKTOP-73ISM6T snapd[175]: daemon.go:340: adjusting startup timeout by 1m0s (pessimistic estimate of 30s plus 5s per snap)
+Feb 23 23:40:43 DESKTOP-73ISM6T systemd[1]: tmp-syscheck\x2dmountpoint\x2d2207131367.mount: Deactivated successfully.
+Feb 23 23:40:43 DESKTOP-73ISM6T snapd[175]: backends.go:58: AppArmor status: apparmor not enabled
+Feb 23 23:40:43 DESKTOP-73ISM6T systemd[1]: Started Snap Daemon.
+Feb 23 23:40:43 DESKTOP-73ISM6T dbus-daemon[155]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.6' (uid=0 pid=175 comm="/usr/lib/snapd/snapd ")
+Feb 23 23:40:43 DESKTOP-73ISM6T systemd[1]: Starting Wait until snapd is fully seeded...
+Feb 23 23:40:43 DESKTOP-73ISM6T systemd[1]: Starting Time & Date Service...
+Feb 23 23:40:44 DESKTOP-73ISM6T dbus-daemon[155]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: Started Time & Date Service.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: Finished Wait until snapd is fully seeded.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: Reached target Multi-User System.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: Reached target Graphical Interface.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: Starting Record Runlevel Change in UTMP...
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: Finished Record Runlevel Change in UTMP.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: Startup finished in 2.157s.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: dmesg.service: Deactivated successfully.
+Feb 23 23:40:44 DESKTOP-73ISM6T kernel: [    4.245172] WSL (2): Creating login session for juanisaza
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: Created slice User Slice of UID 1000.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: Starting User Runtime Directory /run/user/1000...
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: Finished User Runtime Directory /run/user/1000.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: Starting User Manager for UID 1000...
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[420]: Queued start job for default target Main User Target.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[420]: Created slice User Application Slice.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[420]: Reached target Paths.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[420]: Reached target Timers.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[420]: Listening on GnuPG network certificate management daemon.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[420]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[420]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[420]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[420]: Listening on GnuPG cryptographic agent and passphrase cache.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[420]: Listening on debconf communication socket.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[420]: Listening on REST API socket for snapd user session agent.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[420]: Reached target Sockets.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[420]: Reached target Basic System.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[420]: Reached target Main User Target.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[420]: Startup finished in 51ms.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: Started User Manager for UID 1000.
+Feb 23 23:40:44 DESKTOP-73ISM6T systemd[1]: Started Session 1 of User juanisaza.
+Feb 23 23:40:44 DESKTOP-73ISM6T -m: i18n file is /snap/ubuntu-desktop-installer/1278/bin/subiquity/subiquitycore/i18n.py
+Feb 23 23:40:44 DESKTOP-73ISM6T -m: Final localedir is /snap/ubuntu-desktop-installer/share/locale
+Feb 23 23:40:44 DESKTOP-73ISM6T -m: switch_language en_US
+Feb 23 23:40:55 DESKTOP-73ISM6T snapd[175]: stateengine.go:149: state ensure error: decode new commands catalog: net/http: request canceled (Client.Timeout or context cancellation while reading body)
+Feb 23 23:41:25 DESKTOP-73ISM6T systemd[1]: Starting Online ext4 Metadata Check for All Filesystems...
+Feb 23 23:41:25 DESKTOP-73ISM6T systemd[1]: systemd-timedated.service: Deactivated successfully.
+Feb 23 23:41:25 DESKTOP-73ISM6T systemd[1]: e2scrub_all.service: Deactivated successfully.
+Feb 23 23:41:25 DESKTOP-73ISM6T systemd[1]: Finished Online ext4 Metadata Check for All Filesystems.
+Feb 23 23:41:29 DESKTOP-73ISM6T kernel: [   49.301112] hv_balloon: Max. dynamic memory size: 8154 MB
+Feb 23 23:43:55 DESKTOP-73ISM6T kernel: [  195.697519] TCP: eth0: Driver has suspect GRO implementation, TCP performance may be compromised.
+Feb 23 23:45:55 DESKTOP-73ISM6T dbus-daemon[155]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.6' (uid=0 pid=175 comm="/usr/lib/snapd/snapd ")
+Feb 23 23:45:55 DESKTOP-73ISM6T systemd[1]: Starting Time & Date Service...
+Feb 23 23:45:55 DESKTOP-73ISM6T dbus-daemon[155]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Feb 23 23:45:55 DESKTOP-73ISM6T systemd[1]: Started Time & Date Service.
+Feb 23 23:46:00 DESKTOP-73ISM6T snapd[175]: storehelpers.go:773: cannot refresh: snap has no updates available: "bare", "core22", "gtk-common-themes"
+Feb 23 23:46:25 DESKTOP-73ISM6T systemd[1]: systemd-timedated.service: Deactivated successfully.
+Feb 23 23:50:42 DESKTOP-73ISM6T rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="170" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Early/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Early/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Reporting/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Reporting/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Error/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Error/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Userdata/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Userdata/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Package/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Package/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Debconf/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Debconf/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Kernel/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Kernel/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Zdev/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Zdev/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Ad/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Ad/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Late/apply_autoinstall_config
+Feb 23 23:50:47 DESKTOP-73ISM6T subiquity_event.355[355]: subiquity/Late/apply_autoinstall_config
+Feb 23 23:50:57 DESKTOP-73ISM6T snapd[175]: storehelpers.go:773: cannot refresh: snap has no updates available: "bare", "gtk-common-themes"
