@@ -7,7 +7,7 @@ def write_entries(filename):
 
         # Write current date and time to the file
         with open(filename, 'a') as file:
-            file.write(current_datetime + '\n')
+            file.write("Event registered successfuly at: " + current_datetime + '\n')
 
         # Wait for 2 seconds
         time.sleep(2)
